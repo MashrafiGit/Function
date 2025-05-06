@@ -1,13 +1,13 @@
 #include <stdio.h>
 
-int sum(num1, num2)
+void sum(num1, num2)
 {
     int ans = num1 + num2;
     printf("%d\n", ans);
     return;
 }
 
-int sub(num1, num2)
+void sub(num1, num2)
 {
     int ans = num1 - num2;
     printf("%d", ans);
@@ -18,8 +18,8 @@ int main()
 {
     int num1 = 10, num2 = 5;
 
-    int a = sum(num1, num2);
-    int b = sub(num1, num2);
+    sum(num1, num2);
+    sub(num1, num2);
 
     return 0;
 }
