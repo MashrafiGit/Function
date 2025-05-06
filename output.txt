@@ -1,4 +1,6 @@
-main > 10
-main > 5
-function > 10
-function > 5
+5
+4
+5
+4.472136
+512
+6
